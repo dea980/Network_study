@@ -2,7 +2,7 @@ Http and TCP/IP is not the same thing and these are interact each other
 http is containing the TCP.
 HTTP means that the type of the protocol that is based on the TCP
 
-For clarification, We need to understand OSI 7 Layer ![[Screenshot 2023-10-02 at 8.42.41 PM.png]]
+For clarification, We need to understand OSI 7 Layer ![[png/Screenshot 2023-10-02 at 8.42.41 PM.png]]
 source : https://hwan-shell.tistory.com/271
 
 If we supposed to type the domain name at the internet search line : "www.google.com", for the internet window, it need to get into the www.google.com for getting the service with several format. 
@@ -42,12 +42,12 @@ different point is one
 	- TCP Socket
 	- 
 
-![[Screenshot 2023-10-02 at 10.15.05 PM.png]]
+![[png/Screenshotshot 2023-10-02 at 10.15.05 PM.png]]
 - source :https://hwan-shell.tistory.com/271
 - This packet, One of the developer, create the JAVA for the chatting server and connect with the other computer.
 - As Protocol shows, TCP-based S101 was used and blue block below is the string I sent to the server.
 HTTP
-![[Screenshot 2023-10-02 at 10.23.44 PM.png]]
+![[png/Screenshotshot 2023-10-02 at 10.23.44 PM.png]]
 This is the http server that one of the developer created with C++. It shows that json communication is based on HTTP.
 - Socket communication, which is typically used for programming, starts at Layer 4, and packets are generated.
 - For HTTP communications, packets are generated starting from layer 7.
